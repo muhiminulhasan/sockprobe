@@ -1,0 +1,7 @@
+# Example blocklist file for SockProbe
+# Add any additional networks you want to block here
+# Format: CIDR notation (e.g., 192.168.1.0/24)
+
+# Example restricted ranges:
+# 192.168.1.0/24
+# 10.0.0.0/16
