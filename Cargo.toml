@@ -1,0 +1,19 @@
+[package]
+name = "sockprobe"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+clap = { version = "4.0", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+ipnetwork = "0.20"
+cidr = "0.2"
+indicatif = "0.17"
+thiserror = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.0", features = ["v4"] }
+yaml-rust = "0.4"
+rand = "0.8"
+futures = "0.3"
